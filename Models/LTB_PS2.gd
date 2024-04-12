@@ -53,6 +53,9 @@ class LTB_PS2:
 	func is_lithtech_talon():
 		return false
 	# End If
+
+	func is_lithtech_jupiter():
+		return false
 	
 	enum IMPORT_RETURN{SUCCESS, PARTIAL, ERROR}
 	
